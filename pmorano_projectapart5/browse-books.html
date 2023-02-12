@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Ultimate Do Later List</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<script src="js/popper.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </head>
+  <body style="padding-top: 70px">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light container"> <a class="navbar-brand" href="index.html"><img src="photos/logo.png" width="125" height="102" alt=""/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"> <a class="nav-link" href="user-list.html"><img src="photos/logo-03.png" height="50" alt="user-lists"/></a></li>
+          <li class="nav-item"> <a class="nav-link" href="add-to-database.html"><img src="photos/logo-05.png" height="50" alt="add-to-database"/></a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="user-profile.html"><img src="photos/logo-06.png" height="50" alt="profile"/></a> </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-sm-0 my-2" type="submit">Search</button>
+        </form>
+      </div>
+  </nav> 
+<div class="jumbotron containter">
+	<a onclick="history.back()"> <img src="photos/logo-07 copy.png" height="50" alt="user-lists"></a>
+	<br>
+  <h1 class="display-4 text-center">Browse</h1>
+ 	 <div class="dropdown-menu">
+	    <a class="dropdown-item" href="browse-books.html">Books</a> <a class="dropdown-item" href="browse-books.html">Movies</a> <a class="dropdown-item" href="browse-books.html">TV Shows</a> <a class="dropdown-item"href="browse-books.html">Video Games</a>
+   	 </div>
+  </div>
+<div class="container jumbotron">
+		<div class="container" style="float: left;">
+			<h5 style=" width: 300px;">Genre</h5>
+			<table>
+		  <tr>
+		    <td>
+			<label style="font-weight: bold"> <input type="checkbox" name="book-genres" value="fiction" id="book-genres_0"> Fiction  </label> 
+			<label><input type="checkbox" name="book-genres" value="action" id="book-genres_1"> Action  </label>
+			<label> <input type="checkbox" name="book-genres" value="adventure" id="book-genres_2"> Adventure  </label>
+		<label> <input type="checkbox" name="book-genres" value="chick-lit" id="book-genres_3"> Chick Lit  </label>
+	    <label><input type="checkbox" name="book-genres" value="childrens" id="book-genres_4"> Children's  </label>
+	   <label><input type="checkbox" name="book-genres" value="classic" id="book-genres_5"> Classic  </label>
+	   <label><input type="checkbox" name="book-genres" value="comic-book" id="book-genres_6"> Comic Book  </label>
+				<label><input type="checkbox" name="book-genres" value="coming-of-age" id="book-genres_7"> Coming of Age  </label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="crime" id="book-genres_8">
+		      Crime</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="drama" id="book-genres_9">
+		      Drama</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="fairytale" id="book-genres_10">
+		      Fairytale</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="fantasy" id="book-genres_11">
+		      Fantasy</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="graphic-novel" id="book-genres_12">
+		      Graphic Novel</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="historical-fiction" id="book-genres_13">
+					Historical Fiction</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="horror" id="book-genres_14">
+		      Horror</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="mystery" id="book-genres_15">
+		      Mystery</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="picture-book" id="book-genres_16">
+		      Picture Book</label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="poetry" id="book-genres_17"> Poetry </label>
+				<label> <input type="checkbox" name="book-genres" value="romance" id="book-genres_18" > Romance </label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="satire" id="book-genres_19">
+		      Satire </label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="sci-fi" id="book-genres_20">
+		      Science Fiction </label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="short-story" id="book-genres_21">
+		      Short Story </label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="thriller" id="book-genres_22">
+		      Thriller </label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="western" id="book-genres_23">
+		      Western </label>
+				<label>
+		      <input type="checkbox" name="book-genres" value="ya" id="book-genres_24">
+		      Young Adult </label>
+		</td>
+	    </tr>
+		  <tr>
+		  <td>
+			<label style="font-weight: bold"> <input type="checkbox" name="book-genres" value="nonfiction" id="book-genres_25"> Nonfiction </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="art-architecture" id="book-genres_26">
+		      Art and Architecture </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="autobiography" id="book-genres_27">
+		      Autobiography </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="biography" id="book-genres_28">
+		      Biography </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="buisness-economics" id="book-genres_29">
+		      Buisiness and Economics </label>
+		    <label>
+		      <input type="checkbox" name="book-genres" value="crafts-hobbies" id="book-genres_30">
+		      Crafts and Hobbies </label>
+		    <label>
+		      <input type="checkbox" name="book-genres" value="cookbook" id="book-genres_31">
+		      Cookbooks </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="diary" id="book-genres_32">
+		      Diary </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="guide" id="book-genres_33">
+		      Guide </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="health-fitness" id="book-genres_34">
+		      Health and Fitness </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="history" id="book-genres_35">
+		      History </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="home-garden" id="book-genres_36">
+		      Home and Garden </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="humor" id="book-genres_37">
+		      Humor </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="Journal" id="book-genres_38">
+		      Journal </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="math" id="book-genres_39">
+		      Math </label>
+			   <label>
+		      <input type="checkbox" name="book-genres" value="math" id="book-genres_51">
+		      Nature </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="memoir" id="book-genres_40">
+		      Memoir </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="philosphy" id="book-genres_41">
+		      Philosphy </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="religion-spirituality" id="book-genres_42">
+		      Religion and Spirtuality </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="textbook" id="book-genres_43">
+		      Textbook </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="true-crime" id="book-genres_44">
+		      True Crime </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="review" id="book-genres_45">
+		      Review </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="Science" id="book-genres_46">
+		      Science </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="self-help" id="book-genres_47">
+		      Self Help </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="sports-leisure" id="book-genres_48">
+		      Sports and Leisure </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="travel" id="book-genres_49">
+		      Travel </label>
+			  <label>
+		      <input type="checkbox" name="book-genres" value="true-crime" id="book-genres_50">
+		      True Crime </label></td>
+	    </tr>
+	  		</table>
+		</div>
+ 		<div class="container" style="float: left;">
+			<h5 style=" width: 300px;">Page Count</h5>
+			<p style="width: 1140px;">
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="50" id="RadioGroup1_1">
+					  less than 50 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="75" id="RadioGroup1_2">
+				    less than 75 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="100" id="RadioGroup1_3">
+				    less than 100 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="200" id="RadioGroup1_4">
+				    less than 200 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="300" id="RadioGroup1_5">
+				    less than 300 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="400" id="RadioGroup1_6">
+				    less than 400 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="500" id="RadioGroup1_7">
+				    less than 500 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="1000" id="RadioGroup1_8">
+				   less than 1000 </label>
+				  <label>
+				    <input type="radio" name="RadioGroup1" value="10000" id="RadioGroup1_9">
+				   more than 1000 </label>
+				  <br>
+    </p>
+    </div>
+<br>
+	<a href=""> <button name="submit" class="btn btn-outline-success my-sm-0 my-2"> filter </button></a>
+</div>
+<div class="container">
+	<a href="entertainment-profile.html" style="color: #000000; text-decoration:none">
+	<div class="container">
+		<img src="photos/71ASb7rIxnL._AC_UF700,800_QL80_.jpg" height="264" style="float:left" alt=""/>
+		<h3 class="text-left" style="margin-left: 220px; width: 1000px;"> Dinosaurs: New Visions of a Lost World</h3>
+		<h5 class="text-left" style="margin-left: 220px; width: 1000px;"> Michael J Benton</h5>
+	  <p class="text-left" style="margin-left: 220px;">
+			Dinosaurs are not what you thought they were or at least, they didnt look like you hought they did. In recent years, rapid advances in technology and astounding new fossil finds have changed the way we see dinosaurs forever. Poised on the cutting edge of this latest research, world-leading palaeontologist Michael J. Benton brings us a new guide to the world of the dinosaurs, complete with stunning new illustrations by acclaimed palaeoartist Bob Nicholls that display the latest and most exciting scientific discoveries in vibrant colour.
+		</p>
+  	<img src="photos/logo-01.png" width="50" alt="" style="margin-left: 20px; float: left"/>
+	<h6 class="text-left" style="margin-left: 20px; max-width: 250; float: left"> Nature, Textbook</h6>
+	<h6 class="text-left" style="margin-left: 20px; width: 250px; float: left"> 256 pages <br> 15 chapters</h6>
+	<img src="photos/logo-04.png" width="50" alt="" style="margin-left: 20px; float: right"/>
+	</div>
+	</a>
+	<br><br><br>
+	<a href="entertainment-profile.html" style="color: #000000; text-decoration:none">
+	<div class="container">
+		<img src="photos/15645._SY475_.jpg" height="264" style="float:left" alt=""/>
+		<h3 class="text-left" style="margin-left: 190px; width: 1000px;"> Inferno</h3>
+		<h5 class="text-left" style="margin-left: 190px; width: 1000px;"> Dante Alighieri</h5>
+	  <p class="text-left" style="margin-left: 190px;">
+			The first part of Dante’s Divine Comedy is many things: a moving human drama, a supreme expression of the Middle Ages, a glorification of the ways of God, and a magnificent protest against the ways in which men have thwarted the divine plan. One of the few literary works that has enjoyed a fame both immediate and enduring, The Inferno remains powerful after seven centuries. It confronts the most universal values—good and evil, free will and predestination—while remaining intensely personal and ferociously political, for it was born out of the anguish of a man who saw human life blighted by the injustice and corruption of his times.
+		</p>
+  	<img src="photos/logo-01.png" width="50" alt="" style="margin-left: 20px; float: left"/>
+	<h6 class="text-left" style="margin-left: 20px; max-width: 250; float: left"> Epic Poetry, Medieval Allegory</h6>
+	<h6 class="text-left" style="margin-left: 20px; width: 250px; float: left"> 256 pages <br> 34 chapters</h6>
+	<img src="photos/logo-04.png" width="50" alt="" style="margin-left: 20px; float: right"/>
+	</div>
+	</a>
+	<br><br><br>
+	<a href="entertainment-profile.html" style="color: #000000; text-decoration:none">
+	<div class="container">
+		<img src="photos/The_Great_Gatsby_Cover_1925_Retouched.jpeg" height="264" style="float:left" alt=""/>
+		<h3 class="text-left" style="margin-left: 205px; width: 1000px;"> The Great Gatsby</h3>
+		<h5 class="text-left" style="margin-left: 205px; width: 1000px;"> F. Scott Fitzgerald</h5>
+	  <p class="text-left" style="margin-left: 205px;">
+			The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted “gin was the national drink and sex the national obsession,” it is an exquisitely crafted tale of America in the 1920s.
+		</p>
+  	<img src="photos/logo-01.png" width="50" alt="" style="margin-left: 20px; float: left"/>
+	<h6 class="text-left" style="margin-left: 20px; max-width: 250; float: left"> Novel, Fiction, Tragedy</h6>
+	<h6 class="text-left" style="margin-left: 20px; width: 250px; float: left"> 208 pages <br> 9 chapters</h6>
+	<img src="photos/logo-04.png" width="50" alt="" style="margin-left: 20px; float: right"/>
+	</div>
+	</a>
+	<br><br><br><br><br>
+	<a href="entertainment-profile.html" style="color: #000000; text-decoration:none">
+	<div class="container">
+		<img src="photos/Gideon_the_Ninth_-_US_hardback_print_cover.jpeg" height="264" style="float:left" alt=""/>
+		<h3 class="text-left" style="margin-left: 190px; width: 1000px;"> Gideon the Ninth</h3>
+		<h5 class="text-left" style="margin-left: 190px; width: 1000px;"> Tamsyn Muir</h5>
+	  <p class="text-left" style="margin-left: 190px;">
+			Brought up by unfriendly, ossifying nuns, ancient retainers, and countless skeletons, Gideon is ready to abandon a life of servitude and an afterlife as a reanimated corpse. She packs up her sword, her shoes, and her dirty magazines, and prepares to launch her daring escape. But her childhood nemesis won’t set her free without a service.
+
+		</p>
+  	<img src="photos/logo-01.png" width="50" alt="" style="margin-left: 20px; float: left"/>
+	<h6 class="text-left" style="margin-left: 20px; max-width: 250; float: left"> Science Fiction, Science Fantasy</h6>
+	<h6 class="text-left" style="margin-left: 20px; width: 250px; float: left"> 448 pages <br> 37 chapters</h6>
+	<img src="photos/logo-04.png" width="50" alt="" style="margin-left: 20px; float: right"/>
+	</div>
+	</a>
+</div>
+	  	  
+</body>
+</html>
